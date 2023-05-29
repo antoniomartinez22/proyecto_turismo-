@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <link rel="icon" href="../images/loros.png">
+	<title></title> 
+
+	<link rel="stylesheet" href="../css/style.css">
+	
+
+</head> 
+<body class="login-usuario">
+    <header class="admin">
+        <nav>
+            <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../index.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+<form action="registrarse_usuario.php" method="post" class="formulario">
+    
+    <h1>Registrate</h1>
+    <div class="contenedor">
+    
+    <div class="input-contenedor">
+        <i class="fas fa-user icon"></i>
+        <input type="text" name="nombre" placeholder="Nombre Completo" required>
+        
+        </div>
+        
+        <div class="input-contenedor">
+        <i class="fas fa-envelope icon"></i>
+        <input type="text" name="correo" placeholder="Correo Electronico" required>
+        
+        </div>
+        
+        <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+        <input type="password" name="pass" placeholder="Contraseña" required>
+        
+        </div>
+        <input type="submit" value="Registrate" class="button">
+        <p class="registro">Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+        <p class="registro">¿Ya tienes una cuenta?<a class="link" href="login_usuario.html">Iniciar Sesion</a></p>
+    </div>
+</form>
+</body>
+</html>

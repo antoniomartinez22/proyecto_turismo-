@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/loros.png">
+    <title>Reservacion de viaje</title>
+</head>
+<body class="contenedor-reservaciones">
+    <header class="admin">
+        <nav>
+            <ul>
+            <li><a href="sesion.html">Inicio</a></li>
+            <li><a href="sesion.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+    <div class="form-contenedor">
+        <h2>¡RESERVA YA!</h2>
+    <form action="registrar_reservacion.php" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aquí" required>
+    
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico" required>
+    
+        <label for="telefono">Núm. de teléfono:</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Ingresa un número de teléfono" required>
+    
+        <label for="adultos">Núm. de adultos:</label>
+        <input type="number" id="num_adultos" name="num_adultos" min="1" placeholder="Ingresa un número" required>
+    
+        <label for="ninos">Núm. de niños:</label>
+        <input type="number" id="num_niños" name="num_niños" min="0" placeholder="Ingresa un número" required>
+    
+        <label for="dia">Fecha de reservación:</label>
+        <input type="date" id="fecha" name="fecha" required>
+    
+        <label for="lugares">Lugar que desea visitar:</label>
+        <select id="lugares" name="lugares" required>
+            <option value="">Seleccione una opción</option>
+            <option value="Xilitla">Xilitla</option>
+            <option value="Puente de Dios">Puente de Dios</option>
+            <option value="Castillo de la Salud">Castillo de la Salud</option>
+            <option value="Cascadas de Micos">Cascadas de Micos</option>
+            <option value="Cascadas de Tamasopo">Cascadas de Tamasopo</option>
+            <option value="Sótano de las golondrinas">Sótano de las Golondrinas</option>
+        </select>
+
+        <label for="lugares">Actividad que desea realizar:</label>
+        <select id="lugares" name="actividades" required>
+            <option value="">Seleccione una opción</option>
+            <option value="Senderismo y caminatas">Senderismo y caminatas</option>
+            <option value="Visita a cascadas y pozas">Visita a cascadas y pozas</option>
+            <option value="Rafting y descenso de ríos">Rafting y descenso de ríos</option>
+            <option value="Exploración de grutas y cuevas">Exploración de grutas y cuevas</option>
+            <option value="Avistamiento de aves y vida silvestre">Avistamiento de aves y vida silvestre</option>
+        </select>
+        <button type="submit">Enviar Reservación</button>
+    </form>    
+    </div>
+</body>
+</html>

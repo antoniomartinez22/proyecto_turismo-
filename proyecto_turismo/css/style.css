@@ -1,0 +1,1092 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
+        url(../images/huastecaa.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #578143;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center
+}
+
+.header-content h1{
+    font-size: 65px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #ebad8d;
+}
+
+.actividades{
+    padding: 100px 0px;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.actividades-content{
+    text-align: center;
+}
+
+.actividades-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #324337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.viaje-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.viaje-1{
+    padding: 0 25px;
+}
+
+.viaje-1 img{
+    width: 200px;
+}
+
+.viaje-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.viaje-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(../images/servicios.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2 { 
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;    
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 0 100px;
+}
+
+.services-1 img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 { 
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-2 {
+    background-image: url(../images/balsa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(../images/senderismo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.secreto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-transform: none;
+}
+
+.footer {
+    padding: 100px 0;
+    background: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fcfb;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #b1b1b1;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.link a:hover {
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media(max-width:991px){
+    .menu{
+        position: absolute;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p{
+        padding: 0;
+    }
+
+    .actividades {
+        padding: 30px;
+    }
+
+    .actividades-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .viaje-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .viaje-img {
+        display: none;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*Apartado del css sesion Usuario */
+body.login-usuario {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(../images/turismo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 20px;
+}
+form.formulario{
+    background: #ffffff;
+    margin-top: 30px;
+    padding: 2px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p.registro{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+    color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+header.admin{
+    background-color: transparent;
+}
+
+    nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}  
+    nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+    nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*apartado inicio de sesion administrador*/
+
+body.administrador {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(../images/servicios.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 20px;
+}
+form.formulario{
+    background: #ffffff;
+    margin-top: 30px;
+    padding: 2px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p.registro{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+    color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+header.admin{
+    background-color: transparent;
+}
+
+    nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}  
+    nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+    nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*Reservaciones de viajes*/
+body.contenedor-reservaciones{
+    background-image: url(../images/huasteca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh; /* Utilizamos vh (viewport height) para asegurar el ajuste a toda la pantalla */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centramos horizontalmente el contenido */
+}
+body.contenedor-reservaciones::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    z-index: -1; /* Ajusta el valor para que el fondo se coloque detrás del contenido */
+    margin-top: -100vh;
+}
+.form-contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -20px;
+    background-color: #654321;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    }
+    .form-contenedor h2 {
+    text-align: center;
+    font-family:"Helvetica", Arial, sans-serif; 
+    color: rgb(255, 254, 254);
+    }
+    .form-contenedor label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(255, 247, 247);
+      font-weight: 700; /* Negrita */
+    }
+    .form-contenedor input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    resize:none;
+    font-family: "Helvetica", Arial, sans-serif;
+    }
+    .form-contenedor input[type="email"]{
+        width: 100%;
+        padding: 8px;
+        font-size: 21px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        resize:none;
+        font-family: "Helvetica", Arial, sans-serif;
+    }
+    .form-contenedor input[type="date"]{
+        width: 100%;
+        padding: 8px;
+        font-size: 21px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        resize:none;
+        font-family: "Helvetica", Arial, sans-serif;
+    }
+    .form-contenedor input[type="number"]{
+        width: 100%;
+        padding: 8px;
+        font-size: 21px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        resize:none;
+        font-family: "Helvetica", Arial, sans-serif;
+    }
+    .form-contenedor select{
+        width: 100%;
+        padding: 8px;
+        font-size: 21px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        resize:none;
+        font-family: "Helvetica", Arial, sans-serif;
+    }
+    .form-contenedor button[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 34%;
+    }
+    .form-contenedor button:hover{
+    background-color: #2f1f0f;
+    color: white;
+    }
+
+/*Apartado de la información de +Información*/
+/* Estilos para el encabezado */
+.header-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    color: white;
+    padding: 20px;
+    background-color: #000000;
+}
+
+  /* Estilos para las secciones */
+.section-title {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+
+.section-info {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.section-destinations {
+    padding: 20px;
+    background-image: url(../images/fondo.jpg);
+}
+
+  /* Estilos para la lista de destinos */
+.destinations-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 6px solid #ddd;
+    padding: 20px;
+}
+
+.destination-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.destination-title {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #FFFDFC;
+}
+
+.destination-description {
+    margin: 10px 0;
+    color: #FFFDFC;
+    text-align: justify;
+}
+
+
+  /* Estilos para el pie de página */
+.footer-text {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+  /* Estilos para pantallas grandes */
+.header-title {
+    font-size: 3em;
+}
+
+.destinations-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-destinations{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.destination-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.destination-image {
+    max-width: 100%;
+    height: auto;
+}
+
+  /* Estilos para pantallas medianas */
+@media (max-width: 1024px) {
+    .header-title {
+    font-size: 2em;
+    }
+
+    .destination-item {
+    flex-basis: calc(50% - 20px);
+    }
+
+    .section-destinations{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+  /* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .header-title {
+    font-size: 1.5em;
+    }
+
+    .destination-item {
+    flex-basis: 100%;
+    }
+    .section-destinations{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* styles.css */
+.nav-bg {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enlace-logout {
+    color: #fefcfc;
+    text-decoration: none;
+    margin: 0px;
+
+}
+
+.enlace-logout:hover{
+    background-color: #636161;
+    box-shadow: 0 15px 15px  rgba(0, 0, 0, 0.1);
+}
+
+.usuarios-registrados1 {
+    color: #FFFDFC;
+    text-align: center;
+}
+
+.menu-bienvenida {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.registrar-admin1 {
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 20px; 
+    text-decoration: none;
+    margin: 0;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.registrar-admin2{
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 20px; 
+    text-decoration: none;
+    margin: 0;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 650px;
+}
+.registrar-admin1:hover{
+    background-color: #636161;
+    box-shadow: 0 15px 15px  rgba(0, 0, 0, 0.1);
+}
+.registrar-admin2:hover{
+    background-color: #636161;
+    box-shadow: 0 15px 15px  rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -80px;
+    margin: auto;
+}
+
+table td,
+table th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 25%;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.edit-button,.delete-button {
+    display: inline-block;
+    padding: 3px;
+}
+
+.imagen-boton {
+    width: 20px;
+    height: auto;
+    filter: invert(2);
+}
+
+ /* Estilos para pantallas de ancho menor o igual a 768px */
+@media (max-width: 768px) {
+    .nav-bg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-bienvenida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registrar-admin1 {
+        margin-bottom: 10px;
+    }
+    .registrar-admin2{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    table {
+        font-size: 12px;
+    }
+}
+
+/* Estilos para pantallas de ancho menor o igual a 480px */
+@media (max-width: 480px) {
+    .usuarios-registrados1 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+}
+
+/*Estilos de editar administrador*/
+.editar-usuario{
+    background-color: #202020;
+}
+.informacion {
+    width: 500px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1);
+    margin-top: -7%;
+    color: white;
+}
+.formulario-editar label {
+    font-weight: bold;
+}
+
+.input-formulario,.input-formulario-id{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.actualizar-datos {
+    background-color: transparent;
+    color: #949090;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.actualizar-datos:hover{
+    background-color: #636161;
+    box-shadow: 0 15px 15px  rgba(0, 0, 0, 0.1);
+}
+
+.actualizar-datos:hover {
+    color: #ffffff;
+}
+.usuarios-registrados{
+    text-align: center;
+    color: #FFFDFC;
+}
+.registrar-admin{
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: none;
+}
+.registrar-admin:hover{
+    background-color: #636161;
+    box-shadow: 0 15px 15px  rgba(0, 0, 0, 0.1);
+}
+
+.nav-bg{
+    background-color: transparent;
+}
+.input-correo{
+    width: 82%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
